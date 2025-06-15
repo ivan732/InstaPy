@@ -1,5 +1,12 @@
 ## InstaPy
-Instagram api using python
+<p align="center">
+  <img src="https://github.com/ivan732/InstaPy/blob/164af410b7e76c4825e11a017e2fbeebc2e2198f/assets/logo.png?raw=true" alt="Logo InstaPy" width="200" height="200">
+</p>
+<p align="center">
+  INSTAGRAM API AUTOMATION
+</p>
+
+
 
 ## Installation
 ```python
