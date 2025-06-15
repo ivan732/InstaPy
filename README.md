@@ -1,2 +1,57 @@
-# InstaPy
-Instagram python
+## InstaPy
+Instagram api using python
+
+## Installation
+```python
+pip install InstaPy
+```
+or using git
+```python
+pip install git+https://github.com/ivan732/InstaPy
+```
+
+## Instagram
+## Create login session
+```python
+from InstaPy import Instagram
+
+cookie = 'your instagram cookie string'
+ig = Instagram(cookie=cookie)
+```
+
+## Retrieving account information
+```python
+print(ig.name) # your instagram name
+print(ig.username) # your instagram username
+print(ig.id) # your instagram id
+```
+
+## Automation
+## Like
+```python
+from InstaPy import Instagram
+from InstaPy.automation import Automation
+
+cookie = 'your instagram cookie string'
+ig = Instagram(cookie=cookie)
+
+post_id = '3829...'
+automation = Automation(session=ig)
+actions = automation.like(post_id=post_id)
+print(actions) # output: Type[dict]
+print(actions.status) # output: True/False
+```
+
+## Scraping
+## Timeline Post
+```python
+from InstaPy import Instagram
+from InstaPy.scraping import Scraping
+
+cookie = 'your instagram cookie string'
+ig = Instagram(cookie=cookie)
+
+scrape = Scraping(session=ig)
+actions = scrape.timeline_post()
+print(actions) # output: Type[dict] ex: {'status': Type[bool], 'data': Type[dict]}
+```
