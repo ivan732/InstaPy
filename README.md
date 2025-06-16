@@ -1,4 +1,3 @@
-## InstaPy
 <p align="center">
   <img src="https://github.com/ivan732/InstaPy/blob/164af410b7e76c4825e11a017e2fbeebc2e2198f/assets/logo.png?raw=true" alt="Logo InstaPy" width="200" height="200">
 </p>
@@ -6,19 +5,29 @@
   INSTAGRAM API AUTOMATION
 </p>
 
-
-
+## 🧩 Table of contents
+Lorem ipsum anget banget sama bang jali versi docx sesuai dengan windows 10 ya kak pas co Ltd PT Bank mandiri Bank terbaik di dunia ini.
+1. Login
+   - [Login using cookie](#login-using-cookie)
+2. User information
+   - [Retrieving account information](#retrieving-account-information)
+3. Automation
+   - [Like post](#like)
+4. Scraping
+   - [Timeline post](#timeline-post)
+  
+  
 ## Installation
 ```python
 pip install InstaPy
 ```
 or using git
 ```python
-pip install git+https://github.com/ivan732/InstaPy
+pip install git+ttps://github.com/ivan732/InstaPy
 ```
 
 ## Instagram
-## Create login session
+## Login using cookie
 ```python
 from InstaPy import Instagram
 
